@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Inlämningsuppgift1
 {
@@ -352,18 +353,14 @@ namespace Inlämningsuppgift1
                 }
                 else
                 {
-                    foreach (int item in arrayOfSum)
-                    {
+                    int sumoflist = arrayOfSum.Sum();
 
-                        Console.WriteLine(item);
-                    }
+                    Console.WriteLine("Thank you for playing. The sum of all round is {0}. Bye", sumoflist);
                     break;
                 }
 
-
             }
             
-
         }
     }
 }
