@@ -31,7 +31,7 @@ namespace Inlämningsuppgift1
                         if (operatorTwo == "+")
                         {
                             sum = numberOne + numberTwo + numberThree;
-                            Console.WriteLine(numberOne + " + " + numberTwo + " + " + numberThree + " = " + sum);
+                            Console.WriteLine("{0} + {1} + {2} = {3}", numberOne, numberTwo, numberThree, sum); 
                             arrayOfSum.Add(sum);
 
                             if (sum < 100)
@@ -51,8 +51,8 @@ namespace Inlämningsuppgift1
                         else if (operatorTwo == "-")
                         {
                             sum = numberOne + numberTwo - numberThree;
-                            Console.WriteLine(numberOne + " + " + numberTwo + " - " + numberThree + " = " + sum);
-                            arrayOfSum.Add(sum);
+                            Console.WriteLine("{0} + {1} - {2} = {3}", numberOne, numberTwo, numberThree, sum);
+                        arrayOfSum.Add(sum);
 
                             if (sum < 100)
                             {
@@ -70,8 +70,8 @@ namespace Inlämningsuppgift1
                         else if (operatorTwo == "*")
                         {
                             sum = numberOne + numberTwo * numberThree;
-                            Console.WriteLine(numberOne + " + " + numberTwo + " * " + numberThree + " = " + sum);
-                            arrayOfSum.Add(sum);
+                            Console.WriteLine("{0} + {1} * {2} = {3}", numberOne, numberTwo, numberThree, sum);
+                        arrayOfSum.Add(sum);
 
                             if (sum < 100)
                             {
@@ -89,8 +89,8 @@ namespace Inlämningsuppgift1
                         else if (operatorTwo == "/")
                         {
                             sum = numberOne + numberTwo / numberThree;
-                            Console.WriteLine(numberOne + " + " + numberTwo + " / " + numberThree + " = " + sum);
-                            arrayOfSum.Add(sum);
+                            Console.WriteLine("{0} + {1} / {2} = {3}", numberOne, numberTwo, numberThree, sum);
+                        arrayOfSum.Add(sum);
 
                             if (sum < 100)
                             {
@@ -111,8 +111,8 @@ namespace Inlämningsuppgift1
                         if (operatorTwo == "+")
                         {
                             sum = numberOne - numberTwo + numberThree;
-                            Console.WriteLine(numberOne + " - " + numberTwo + " + " + numberThree + " = " + sum);
-                            arrayOfSum.Add(sum);
+                            Console.WriteLine("{0} - {1} + {2} = {3}", numberOne, numberTwo, numberThree, sum);
+                        arrayOfSum.Add(sum);
 
                             if (sum < 100)
                             {
@@ -130,8 +130,8 @@ namespace Inlämningsuppgift1
                         else if (operatorTwo == "-")
                         {
                             sum = numberOne - numberTwo - numberThree;
-                            Console.WriteLine(numberOne + " - " + numberTwo + " - " + numberThree + " = " + sum);
-                            arrayOfSum.Add(sum);
+                            Console.WriteLine("{0} - {1} - {2} = {3}", numberOne, numberTwo, numberThree, sum);
+                        arrayOfSum.Add(sum);
 
                             if (sum < 100)
                             {
@@ -149,8 +149,8 @@ namespace Inlämningsuppgift1
                         else if (operatorTwo == "*")
                         {
                             sum = numberOne - numberTwo * numberThree;
-                            Console.WriteLine(numberOne + " - " + numberTwo + " * " + numberThree + " = " + sum);
-                            arrayOfSum.Add(sum);
+                            Console.WriteLine("{0} - {1} * {2} = {3}", numberOne, numberTwo, numberThree, sum);
+                        arrayOfSum.Add(sum);
 
                             if (sum < 100)
                             {
@@ -168,8 +168,8 @@ namespace Inlämningsuppgift1
                         else if (operatorTwo == "/")
                         {
                             sum = numberOne - numberTwo / numberThree;
-                            Console.WriteLine(numberOne + " - " + numberTwo + " / " + numberThree + " = " + sum);
-                            arrayOfSum.Add(sum);
+                            Console.WriteLine("{0} - {1} / {2} = {3}", numberOne, numberTwo, numberThree, sum);
+                        arrayOfSum.Add(sum);
 
                             if (sum < 100)
                             {
@@ -190,8 +190,8 @@ namespace Inlämningsuppgift1
                         if (operatorTwo == "+")
                         {
                             sum = numberOne * numberTwo + numberThree;
-                            Console.WriteLine(numberOne + " * " + numberTwo + " + " + numberThree + " = " + sum);
-                            arrayOfSum.Add(sum);
+                            Console.WriteLine("{0} * {1} + {2} = {3}", numberOne, numberTwo, numberThree, sum);
+                        arrayOfSum.Add(sum);
 
                             if (sum < 100)
                             {
@@ -209,8 +209,8 @@ namespace Inlämningsuppgift1
                         else if (operatorTwo == "-")
                         {
                             sum = numberOne * numberTwo - numberThree;
-                            Console.WriteLine(numberOne + " * " + numberTwo + " - " + numberThree + " = " + sum);
-                            arrayOfSum.Add(sum);
+                            Console.WriteLine("{0} * {1} - {2} = {3}", numberOne, numberTwo, numberThree, sum);
+                        arrayOfSum.Add(sum);
 
                             if (sum < 100)
                             {
@@ -228,8 +228,8 @@ namespace Inlämningsuppgift1
                         else if (operatorTwo == "*")
                         {
                             sum = numberOne * numberTwo * numberThree;
-                            Console.WriteLine(numberOne + " * " + numberTwo + " * " + numberThree + " = " + sum);
-                            arrayOfSum.Add(sum);
+                            Console.WriteLine("{0} * {1} * {2} = {3}", numberOne, numberTwo, numberThree, sum);
+                        arrayOfSum.Add(sum);
 
                             if (sum < 100)
                             {
@@ -247,8 +247,8 @@ namespace Inlämningsuppgift1
                         else if (operatorTwo == "/")
                         {
                             sum = numberOne * numberTwo / numberThree;
-                            Console.WriteLine(numberOne + " * " + numberTwo + " / " + numberThree + " = " + sum);
-                            arrayOfSum.Add(sum);
+                            Console.WriteLine("{0} * {1} / {2} = {3}", numberOne, numberTwo, numberThree, sum);
+                        arrayOfSum.Add(sum);
 
                             if (sum < 100)
                             {
@@ -269,8 +269,8 @@ namespace Inlämningsuppgift1
                         if (operatorTwo == "+")
                         {
                             sum = numberOne / numberTwo + numberThree;
-                            Console.WriteLine(numberOne + " / " + numberTwo + " + " + numberThree + " = " + sum);
-                            arrayOfSum.Add(sum);
+                            Console.WriteLine("{0} / {1} + {2} = {3}", numberOne, numberTwo, numberThree, sum);
+                        arrayOfSum.Add(sum);
 
                             if (sum < 100)
                             {
@@ -288,8 +288,8 @@ namespace Inlämningsuppgift1
                         else if (operatorTwo == "-")
                         {
                             sum = numberOne / numberTwo - numberThree;
-                            Console.WriteLine(numberOne + " / " + numberTwo + " - " + numberThree + " = " + sum);
-                            arrayOfSum.Add(sum);
+                            Console.WriteLine("{0} / {1} - {2} = {3}", numberOne, numberTwo, numberThree, sum);
+                        arrayOfSum.Add(sum);
 
                             if (sum < 100)
                             {
@@ -307,8 +307,8 @@ namespace Inlämningsuppgift1
                         else if (operatorTwo == "*")
                         {
                             sum = numberOne / numberTwo * numberThree;
-                            Console.WriteLine(numberOne + " / " + numberTwo + " * " + numberThree + " = " + sum);
-                            arrayOfSum.Add(sum);
+                            Console.WriteLine("{0} / {1} * {2} = {3}", numberOne, numberTwo, numberThree, sum);
+                        arrayOfSum.Add(sum);
 
                             if (sum < 100)
                             {
@@ -326,8 +326,8 @@ namespace Inlämningsuppgift1
                         else if (operatorTwo == "/")
                         {
                             sum = numberOne / numberTwo / numberThree;
-                            Console.WriteLine(numberOne + " / " + numberTwo + " / " + numberThree + " = " + sum);
-                            arrayOfSum.Add(sum);
+                            Console.WriteLine("{0} / {1} / {2} = {3}", numberOne, numberTwo, numberThree, sum);
+                        arrayOfSum.Add(sum);
 
                             if (sum < 100)
                             {
@@ -359,8 +359,10 @@ namespace Inlämningsuppgift1
                     break;
                 }
 
+
             }
             
+
         }
     }
 }
